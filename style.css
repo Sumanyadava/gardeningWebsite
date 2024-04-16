@@ -1,0 +1,52 @@
+body{
+  font-family: "Roboto", sans-serif;
+}
+
+header{
+  
+
+  /* background-color: #dbf26e; */
+  background-image: linear-gradient(319deg, #61fa74 37%, #1cfdd6 100%);
+
+  
+
+}
+
+.btn-primary{
+  background-color: rgb(72, 72, 72) !important;
+  border: none;
+  
+
+  /* border-radius: 10px; */
+}
+
+.banner{
+  background-color: antiquewhite;
+  background-image: url("assets/banner2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 70vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+footer{
+  background-color: antiquewhite;
+  height: 40vh;
+  
+  display: flex;
+
+}
+.socials{
+  background-color: #61fa74;
+  height: 100%;
+  width: 20%;
+}
+.location{
+  background-color: aqua;
+  height: 100%;
+  width: 100%;
+}
