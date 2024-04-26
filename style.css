@@ -8,7 +8,7 @@ header{
   
 
   /* background-color: #dbf26e; */
-  background-image: linear-gradient(319deg, #61fa74 37%, #1cfdd6 100%);
+  background-image: linear-gradient(45deg,rgb(177, 215, 94),rgb(62, 162, 62));
 
   
 
@@ -60,12 +60,42 @@ footer{
 .tag_line{
   font-weight: 400;
   text-align: center;
+  color: black;
+  width: 50%;
 }
 .font_head{
   font-family: "Playfair Display", serif;
   font-weight: 900;
+  color: black;
+  
   
 }
 .popular{
-  background-image: linear-gradient(45deg,rgb(177, 215, 94),rgb(62, 162, 62));
+  
+}
+.round{
+  /* background-color: rgb(245, 233, 219); */
+  backdrop-filter: blur(5px);
+  border-radius: 15px;
+  padding: 20px;
+}
+.tittle{
+  font-size: 3vw;
+}
+.tittle2{
+  font-size: 5vw;
+  margin: 1%;
+  text-shadow: 0 0 8px ;
+  
+}
+
+@media only screen and (max-width: 600px) {
+  .tittle2{
+    font-size: 10vw;
+    margin: 5%;
+  }
+  .tag_line{
+    width: 90%;
+    
+  }
 }
